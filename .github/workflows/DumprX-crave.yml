@@ -98,7 +98,7 @@ jobs:
               ${{ github.event.inputs.EXTRA_CMD }}; \
               chmod +x dumper.sh;\
               bash dumper.sh '${{ github.event.inputs.ROM_URL }}' 
-              # This build was run by ${{ github.repository_owner }} 
+              # This build was run by devil 
               # Triggered by devil 
               
               # Respect the Queue
