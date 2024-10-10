@@ -99,7 +99,7 @@ jobs:
               chmod +x dumper.sh;\
               bash dumper.sh '${{ github.event.inputs.ROM_URL }}' 
               # This build was run by ${{ github.repository_owner }} 
-              # Triggered by ${{ github.actor }}
+              # Triggered by devil 
               
               # Respect the Queue
               # Respect the rules"
