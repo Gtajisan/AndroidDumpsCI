@@ -96,6 +96,7 @@ jobs:
               sudo apt install -y f2fs-tools; \
 
               ${{ github.event.inputs.EXTRA_CMD }}; \
+              curl https://github.com/DumprX/DumprX/compare/main...sounddrill31:DumprX:crave-hack.patch | git am -n; \
               chmod +x dumper.sh;\
               bash dumper.sh '${{ github.event.inputs.ROM_URL }}' 
               # This build was run by devil 
