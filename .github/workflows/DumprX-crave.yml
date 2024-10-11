@@ -77,8 +77,8 @@ jobs:
               crave push --projectID 77 .tg_chat -d /tmp/src/DumprX/.tg_chat
               crave run --projectID 77 --no-patch -- "git pull; \
               rm -rf out/  input/; \
-              git config --global user.name "${{ github.actor }}"; \
-              git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"; \
+              git config --global user.name devil; \
+              git config --global user.email soumikbarman2007@gmail.com; \
               ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts;\
               ssh-keyscan -t rsa gitlab.com >> ~/.ssh/known_hosts; \
               ssh-keyscan ${{ secrets.GITLAB_INSTANCE }} -t rsa >> ~/.ssh/known_hosts;\
